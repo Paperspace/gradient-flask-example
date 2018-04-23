@@ -32,3 +32,5 @@ curl http://http://35.230.20.216/:5000/api?key=hellothere
 ```
 
 And the output: `{"key": "hellothere"}`
+
+<img width="1136" alt="screen shot 2018-04-23 at 12 15 57 pm" src="https://user-images.githubusercontent.com/585865/39148077-42f441b6-46f0-11e8-9ebf-3b3741e9340d.png">
