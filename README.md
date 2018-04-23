@@ -1,5 +1,5 @@
 # gradient-flask-example
-Simple example of running a flask app from a Gradient job
+Sometimes you want to serve a simple webservice from a GPU container. Maybe you want to test out a new model you have trained (not hodog?!) or want to serve a simple visualization of your machine learning model. This repo shows you how to make a simple flask app using Paperspace's [Gradient°](https://www.paperspace.com/gradient).
 
 ## Run the job
 
