@@ -4,7 +4,7 @@ Sometimes you want to serve a simple webservice from a GPU container. Maybe you 
 ## Run the job
 
 ```
-paperspace jobs create --machineType P5000 --container Test-Container --ports 5000:5000 --command 'pip install flask flask_restful && python myapp.py' --workspace ~/flask/myapp.py
+paperspace jobs create --machineType P5000 --container Test-Container --ports 5000:5000 --command 'pip install flask flask_restful && python myapp.py' --workspace https://github.com/Paperspace/gradient-flask-example.git
 ```
 
 or alternatively you can pull down this repo and run from your local machine:
